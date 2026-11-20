@@ -14,7 +14,5 @@ Route::get('/clientes', [ClienteController::class, 'index']);
 Route::get('/empleados', [EmpleadoController::class, 'index']);
 Route::get('/alquileres', [AlquilerController::class, 'index']);
 Route::get('/detalles', [DetalleAlquilerController::class, 'index']);
-Route::get('/prueba-conexion', function () {
-    return '¡Conexión exitosa!';
-});
+
 
